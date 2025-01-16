@@ -1,5 +1,5 @@
 kurulum için,,,
-for installation su,,,pport,,
-لدعم التثبيت
+for installation support
+لدعم التثبيت..
 
 https://www.youtube.com/@zonsxd
