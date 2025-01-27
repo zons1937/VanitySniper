@@ -1,8 +1,4 @@
-"use strict";
-// bu kod github.com/zons1937 tarafından yazılmıştır.
-// discord.gg/1937 1978
-// duckevils rush  zons 
-// biz istersek url çekebilirsiniz :)
+// kuramazsanız iletişim - thezons
 import tls from 'tls';
 import WebSocket from 'ws';
 import extractJsonFromString from 'extract-json-from-string';
@@ -20,7 +16,7 @@ const config = {
     gatewayUrl: "wss://gateway-us-east1-b.discord.gg",
     os: "linux",
     browser: "Maxthon",
-    device: "zons1937"
+    device: "1988kingdoms"
 };
 
 let mfaToken;
@@ -73,7 +69,7 @@ tlsSocket.on("secureConnect", () => {
                 }
             });
             
-        console.log(`\x1b[31mduckevils wishes you a good flight!\x1b`);
+        console.log(`\x1b[31mzons wishes you a good flight!\x1b`);
         }
         
 async function notifyWebhook(find) {
@@ -166,7 +162,7 @@ const headers = {
     'X-Context-Properties': 'nosniff',
     'X-Discord-Locale': 'tr',
     'X-Discord-Timezone': 'Europe/Istanbul',
-    'X-Super-Properties': 'eyJvcyI6IkFuZHJvaWQiLCJicm93c2VyIjoiQW5kcm9pZCBDaHJvbWUiLCJkZXZpY2UiOiJBbmRyb2lkIiwic3lzdGVtX2xvY2FsZSI6InRyLVRSIiwiYnJvd3Nlcl91c2VyX2FnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEzMS4wLjAuMCBTYWZhcmkvNTM3LjM2IiwiYnJvd3Nlcl92ZXJzaW9uIjoiMTMxLjAuMC4wIiwib3NfdmVyc2lvbiI6IjEwIiwicmVmZXJyZXIiOiJodHRwczovL2Rpc2NvcmQuY29tL2NoYW5uZWxzL0BtZS8xMzAzMDQ1MDIyNjQzNTIzNjU1IiwicmVmZXJyaW5nX2RvbWFpbiI6ImRpc2NvcmQuY29tIiwicmVmZXJyZXJfY3VycmVudCI6IiIsInJlZmVycmluZ19kb21haW5fY3VycmVudCI6IiIsInJlbGVhc2VfY2hhbm5lbCI6InN0YWJsZSIsImNsaWVudF9idWlsZF9udW1iZXIiOjM1NTYyNCwiY2xpZW50X2V2ZW50X3NvdXJjZSI6bnVsbCwiaGFzX2NsaWVudF9tb2RzIjpmYWxzZX0='
+    'X-Super-Properties': 'eyJvcyI6IkFuZHJvaWQiLCJicm93c2VyIjoiQW5kcm9pZCBDaHJvbWUiLCJkZXZpY2UiOiJBbmRyb2lkIiwic3lzdGVtX2xvY2FsZSI6InRyLVRSIiwiYnJvd3Nlcl91c2VyX2FnZW50IjoiTW96aWxsYS81LjAgKExpbnV4OyBBbmRyb2lkIDYuMDsgTmV4dXMgNSBCdWlsZC9NUkE1OE4pIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzEuMC4wLjAgTW9iaWxlIFNhZmFyaS81MzcuMzYiLCJicm93c2VyX3ZlcnNpb24iOiIxMzEuMC4wLjAiLCJvc192ZXJzaW9uIjoiNi4wIiwicmVmZXJyZXIiOiJodHRwczovL2Rpc2NvcmQuY29tL2NoYW5uZWxzL0BtZS8xMzAzMDQ1MDIyNjQzNTIzNjU1IiwicmVmZXJyaW5nX2RvbWFpbiI6ImRpc2NvcmQuY29tIiwicmVmZXJyaW5nX2N1cnJlbnQiOiIiLCJyZWxlYXNlX2NoYW5uZWwiOiJzdGFibGUiLCJjbGllbnRfYnVpbGRfbnVtYmVyIjozNTU2MjQsImNsaWVudF9ldmVudF9zb3VyY2UiOm51bGwsImhhc19jbGllbnRfbW9kcyI6ZmFsc2V9='
 };
 
 async function vanityUpdate(find) {
@@ -216,5 +212,5 @@ async function http2Request(method, path, customHeaders = {}, body = null) {
         req.end();
     });
 }
-process.title = "Zafer Allah'ın yanında olanındır.";
+process.title = "Zons baba memlekette populer.";
 // we are allah's soldiers
